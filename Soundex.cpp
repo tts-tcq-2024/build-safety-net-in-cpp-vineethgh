@@ -13,7 +13,7 @@ char getSoundexCode(char c) {
         {'R', '6'},
         {'A', '0'},{'E', '0'},{'I', '0'},{'O', '0'},{'U', '0'},{'Y', '0'},{'H', '0'},{'W', '0'}
     };
-    return soundex_map[c]
+    return soundex_map[c];
 }
 
 std::string generateSoundex(const std::string& name) {
