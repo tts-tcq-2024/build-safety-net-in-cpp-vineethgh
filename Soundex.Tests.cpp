@@ -113,3 +113,4 @@ TEST(SoundexTest, GenerateSoundex) {
     EXPECT_EQ(generateSoundex("pfister"), "P236");
     EXPECT_EQ(generateSoundex("Tymczak"), "T522");
 }
+
